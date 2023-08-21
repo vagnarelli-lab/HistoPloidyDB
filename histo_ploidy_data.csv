@@ -1,0 +1,140 @@
+gene,TCGA_cancer_type,aneuploidy_metric,Pearson_correlation,odds_ratio,p,method,histone_family,histone_type,histone_alteration,histone_alteration_detailed
+CENPA,BRCA,Aneuploidy.Score,0.24,NA,1.76E-15,Pearson,H3,variant,mRNA_expression,Overexpression
+CENPA,KIRC,Aneuploidy.Score,0.25,NA,3.36E-08,Pearson,H3,variant,mRNA_expression,Overexpression
+CENPA,KIRP,Aneuploidy.Score,0.23,NA,0.000136,Pearson,H3,variant,mRNA_expression,Overexpression
+CENPA,LGG,Aneuploidy.Score,0.39,NA,8.67E-20,Pearson,H3,variant,mRNA_expression,Overexpression
+CENPA,LIHC,Aneuploidy.Score,0.25,NA,0.00000282,Pearson,H3,variant,mRNA_expression,Overexpression
+CENPA,LUAD,Aneuploidy.Score,0.27,NA,8.41E-10,Pearson,H3,variant,mRNA_expression,Overexpression
+CENPA,PAAD,Aneuploidy.Score,0.27,NA,0.000685,Pearson,H3,variant,mRNA_expression,Overexpression
+CENPA,PRAD,Aneuploidy.Score,0.43,NA,4.50E-21,Pearson,H3,variant,mRNA_expression,Overexpression
+CENPA,TGCT,Aneuploidy.Score,0.29,NA,0.000392,Pearson,H3,variant,mRNA_expression,Overexpression
+CENPA,UCEC,Aneuploidy.Score,0.42,NA,1.19E-08,Pearson,H3,variant,mRNA_expression,Overexpression
+H1-0,LUAD,Aneuploidy.Score,0.21,NA,0.00000145,Pearson,H1,variant,mRNA_expression,Overexpression
+H1-0,PAAD,Aneuploidy.Score,0.25,NA,0.0015,Pearson,H1,variant,mRNA_expression,Overexpression
+H1-1,PAAD,Aneuploidy.Score,0.22,NA,0.00592,Pearson,H1,canonical,mRNA_expression,Overexpression
+H1-10,KICH,Aneuploidy.Score,0.25,NA,0.0458,Pearson,H1,variant,mRNA_expression,Overexpression
+H1-10,PRAD,Aneuploidy.Score,0.23,NA,0.00000126,Pearson,H1,variant,mRNA_expression,Overexpression
+H1-2,CESC,Aneuploidy.Score,0.23,NA,0.0000747,Pearson,H1,canonical,mRNA_expression,Overexpression
+H1-2,GBM,Aneuploidy.Score,0.24,NA,0.00272,Pearson,H1,canonical,mRNA_expression,Overexpression
+H1-3,LGG,Aneuploidy.Score,0.23,NA,0.000000149,Pearson,H1,canonical,mRNA_expression,Overexpression
+H1-5,PRAD,Aneuploidy.Score,0.22,NA,0.00000521,Pearson,H1,canonical,mRNA_expression,Overexpression
+H1-6,GBM,Aneuploidy.Score,0.22,NA,0.00737,Pearson,H1,canonical,mRNA_expression,Overexpression
+H1-6,THYM,Aneuploidy.Score,0.25,NA,0.0122,Pearson,H1,canonical,mRNA_expression,Overexpression
+H1-8,KICH,Aneuploidy.Score,0.26,NA,0.0391,Pearson,H1,variant,mRNA_expression,Overexpression
+H2AB1,THYM,Aneuploidy.Score,0.3,NA,0.00202,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AC16,UCEC,Aneuploidy.Score,0.2,NA,0.00896,Pearson,H2A,canonical,mRNA_expression,Overexpression
+H2AC17,CESC,Aneuploidy.Score,0.24,NA,0.000039,Pearson,H2A,canonical,mRNA_expression,Overexpression
+H2AC17,LGG,Aneuploidy.Score,0.25,NA,9.94E-09,Pearson,H2A,canonical,mRNA_expression,Overexpression
+H2AC17,TGCT,Aneuploidy.Score,0.23,NA,0.00449,Pearson,H2A,canonical,mRNA_expression,Overexpression
+H2AC18,GBM,Aneuploidy.Score,0.21,NA,0.00892,Pearson,H2A,canonical,mRNA_expression,Overexpression
+H2AC18,KICH,Aneuploidy.Score,0.27,NA,0.029,Pearson,H2A,canonical,mRNA_expression,Overexpression
+H2AC18,THYM,Aneuploidy.Score,0.41,NA,0.0000172,Pearson,H2A,canonical,mRNA_expression,Overexpression
+H2AC20,LGG,Aneuploidy.Score,0.25,NA,8.99E-09,Pearson,H2A,canonical,mRNA_expression,Overexpression
+H2AC20,LIHC,Aneuploidy.Score,0.3,NA,7.47E-09,Pearson,H2A,canonical,mRNA_expression,Overexpression
+H2AC25,LIHC,Aneuploidy.Score,0.2,NA,0.000143,Pearson,H2A,canonical,mRNA_expression,Overexpression
+H2AC4,CESC,Aneuploidy.Score,0.22,NA,0.000114,Pearson,H2A,canonical,mRNA_expression,Overexpression
+H2AC6,GBM,Aneuploidy.Score,0.2,NA,0.012,Pearson,H2A,canonical,mRNA_expression,Overexpression
+H2AC8,LGG,Aneuploidy.Score,0.23,NA,9.15E-08,Pearson,H2A,canonical,mRNA_expression,Overexpression
+H2AJ,LGG,Aneuploidy.Score,0.2,NA,0.00000522,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AX,KICH,Aneuploidy.Score,0.29,NA,0.0203,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AX,LGG,Aneuploidy.Score,0.27,NA,1.10E-09,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AX,LIHC,Aneuploidy.Score,0.28,NA,7.23E-08,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AX,LUAD,Aneuploidy.Score,0.25,NA,1.13E-08,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AX,PRAD,Aneuploidy.Score,0.31,NA,3.39E-11,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AX,UVM,Aneuploidy.Score,0.24,NA,0.0303,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AZ1,BRCA,Aneuploidy.Score,0.23,NA,7.23E-14,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AZ1,KICH,Aneuploidy.Score,0.31,NA,0.0111,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AZ1,LGG,Aneuploidy.Score,0.29,NA,2.73E-11,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AZ1,LIHC,Aneuploidy.Score,0.22,NA,0.0000422,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AZ1,PAAD,Aneuploidy.Score,0.31,NA,0.0000934,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AZ1,PRAD,Aneuploidy.Score,0.34,NA,3.51E-13,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AZ1,THCA,Aneuploidy.Score,0.3,NA,5.08E-11,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AZ2,COAD,Aneuploidy.Score,0.25,NA,0.0000258,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AZ2,KIRC,Aneuploidy.Score,0.21,NA,0.00000238,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AZ2,LGG,Aneuploidy.Score,0.26,NA,3.87E-09,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AZ2,LUAD,Aneuploidy.Score,0.29,NA,3.07E-11,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AZ2,PAAD,Aneuploidy.Score,0.36,NA,0.00000421,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AZ2,PRAD,Aneuploidy.Score,0.28,NA,3.71E-09,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AZ2,SKCM,Aneuploidy.Score,0.22,NA,0.0000048,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AZ2,THCA,Aneuploidy.Score,0.4,NA,1.71E-19,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2BC11,LGG,Aneuploidy.Score,0.26,NA,4.15E-09,Pearson,H2B,canonical,mRNA_expression,Overexpression
+H2BC11,PAAD,Aneuploidy.Score,0.21,NA,0.0081,Pearson,H2B,canonical,mRNA_expression,Overexpression
+H2BC12,GBM,Aneuploidy.Score,0.32,NA,0.0000669,Pearson,H2B,canonical,mRNA_expression,Overexpression
+H2BC13,HNSC,Aneuploidy.Score,0.21,NA,0.00000297,Pearson,H2B,canonical,mRNA_expression,Overexpression
+H2BC15,HNSC,Aneuploidy.Score,0.21,NA,0.00000133,Pearson,H2B,canonical,mRNA_expression,Overexpression
+H2BC17,LGG,Aneuploidy.Score,0.25,NA,9.98E-09,Pearson,H2B,canonical,mRNA_expression,Overexpression
+H2BC17,PAAD,Aneuploidy.Score,0.21,NA,0.00913,Pearson,H2B,canonical,mRNA_expression,Overexpression
+H2BC17,UCEC,Aneuploidy.Score,0.2,NA,0.00947,Pearson,H2B,canonical,mRNA_expression,Overexpression
+H2BC18,THYM,Aneuploidy.Score,0.34,NA,0.000422,Pearson,H2B,canonical,mRNA_expression,Overexpression
+H2BC21,THYM,Aneuploidy.Score,0.27,NA,0.00521,Pearson,H2B,canonical,mRNA_expression,Overexpression
+H2BC4,THYM,Aneuploidy.Score,0.2,NA,0.0475,Pearson,H2B,canonical,mRNA_expression,Overexpression
+H2BC5,GBM,Aneuploidy.Score,0.34,NA,0.0000146,Pearson,H2B,canonical,mRNA_expression,Overexpression
+H2BC5,THYM,Aneuploidy.Score,0.25,NA,0.0106,Pearson,H2B,canonical,mRNA_expression,Overexpression
+H2BC8,LGG,Aneuploidy.Score,0.21,NA,0.00000199,Pearson,H2B,canonical,mRNA_expression,Overexpression
+H2BC8,THYM,Aneuploidy.Score,0.22,NA,0.0254,Pearson,H2B,canonical,mRNA_expression,Overexpression
+H2BC9,KIRC,Aneuploidy.Score,0.22,NA,0.000000637,Pearson,H2B,canonical,mRNA_expression,Overexpression
+H2BC9,LGG,Aneuploidy.Score,0.2,NA,0.00000858,Pearson,H2B,canonical,mRNA_expression,Overexpression
+H2BW1,GBM,Aneuploidy.Score,0.21,NA,0.0103,Pearson,H2B,variant,mRNA_expression,Overexpression
+H2BW1,THCA,Aneuploidy.Score,0.2,NA,0.0000175,Pearson,H2B,variant,mRNA_expression,Overexpression
+H2BW2,GBM,Aneuploidy.Score,0.25,NA,0.0022,Pearson,H2B,variant,mRNA_expression,Overexpression
+H3-3A,LIHC,Aneuploidy.Score,0.22,NA,0.0000196,Pearson,H3,variant,mRNA_expression,Overexpression
+H3C10,LGG,Aneuploidy.Score,0.23,NA,0.000000201,Pearson,H3,canonical,mRNA_expression,Overexpression
+H3C10,THCA,Aneuploidy.Score,0.29,NA,3.54E-10,Pearson,H3,canonical,mRNA_expression,Overexpression
+H3C12,LGG,Aneuploidy.Score,0.26,NA,0.000000004,Pearson,H3,canonical,mRNA_expression,Overexpression
+H3C12,PAAD,Aneuploidy.Score,0.2,NA,0.0104,Pearson,H3,canonical,mRNA_expression,Overexpression
+H3C12,PRAD,Aneuploidy.Score,0.25,NA,0.000000136,Pearson,H3,canonical,mRNA_expression,Overexpression
+H3C14,PAAD,Aneuploidy.Score,0.2,NA,0.0123,Pearson,H3,canonical,mRNA_expression,Overexpression
+H3C14,THCA,Aneuploidy.Score,0.24,NA,0.0000002,Pearson,H3,canonical,mRNA_expression,Overexpression
+H3C14,THYM,Aneuploidy.Score,0.2,NA,0.0397,Pearson,H3,canonical,mRNA_expression,Overexpression
+H3C2,PAAD,Aneuploidy.Score,0.23,NA,0.00309,Pearson,H3,canonical,mRNA_expression,Overexpression
+H3C2,PRAD,Aneuploidy.Score,0.2,NA,0.0000153,Pearson,H3,canonical,mRNA_expression,Overexpression
+H3C3,KIRC,Aneuploidy.Score,0.2,NA,0.00000816,Pearson,H3,canonical,mRNA_expression,Overexpression
+H3C6,LGG,Aneuploidy.Score,0.23,NA,8.65E-08,Pearson,H3,canonical,mRNA_expression,Overexpression
+H3C6,THYM,Aneuploidy.Score,0.21,NA,0.03,Pearson,H3,canonical,mRNA_expression,Overexpression
+H3C8,LGG,Aneuploidy.Score,0.27,NA,9.06E-10,Pearson,H3,canonical,mRNA_expression,Overexpression
+MACROH2A1,KIRC,Aneuploidy.Score,0.27,NA,8.75E-10,Pearson,H2A,variant,mRNA_expression,Overexpression
+MACROH2A1,LGG,Aneuploidy.Score,0.23,NA,0.000000249,Pearson,H2A,variant,mRNA_expression,Overexpression
+MACROH2A1,LIHC,Aneuploidy.Score,0.2,NA,0.000168,Pearson,H2A,variant,mRNA_expression,Overexpression
+MACROH2A1,THCA,Aneuploidy.Score,0.21,NA,0.00000411,Pearson,H2A,variant,mRNA_expression,Overexpression
+MACROH2A2,KIRC,Aneuploidy.Score,0.24,NA,0.000000156,Pearson,H2A,variant,mRNA_expression,Overexpression
+MACROH2A2,LIHC,Aneuploidy.Score,0.23,NA,0.0000123,Pearson,H2A,variant,mRNA_expression,Overexpression
+CENPA,THYM,Aneuploidy.Score,-0.22,NA,0.028,Pearson,H3,variant,mRNA_expression,Overexpression
+H1-10,THYM,Aneuploidy.Score,-0.32,NA,0.000874,Pearson,H1,variant,mRNA_expression,Overexpression
+H2AB1,UVM,Aneuploidy.Score,-0.32,NA,0.00381,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AC11,THYM,Aneuploidy.Score,-0.26,NA,0.00818,Pearson,H2A,canonical,mRNA_expression,Overexpression
+H2AC25,UVM,Aneuploidy.Score,-0.25,NA,0.0228,Pearson,H2A,canonical,mRNA_expression,Overexpression
+H2AX,THYM,Aneuploidy.Score,-0.2,NA,0.0404,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AZ1,COAD,Aneuploidy.Score,-0.29,NA,0.00000121,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AZ1,READ,Aneuploidy.Score,-0.24,NA,0.0226,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2AZ2,THYM,Aneuploidy.Score,-0.25,NA,0.00993,Pearson,H2A,variant,mRNA_expression,Overexpression
+H2BC11,THYM,Aneuploidy.Score,-0.33,NA,0.000753,Pearson,H2B,canonical,mRNA_expression,Overexpression
+H2BC13,THYM,Aneuploidy.Score,-0.23,NA,0.0201,Pearson,H2B,canonical,mRNA_expression,Overexpression
+H2BC9,THYM,Aneuploidy.Score,-0.21,NA,0.035,Pearson,H2B,canonical,mRNA_expression,Overexpression
+H2BW1,THYM,Aneuploidy.Score,-0.25,NA,0.0111,Pearson,H2B,variant,mRNA_expression,Overexpression
+H2BW2,THYM,Aneuploidy.Score,-0.23,NA,0.019,Pearson,H2B,variant,mRNA_expression,Overexpression
+H3C7,THYM,Aneuploidy.Score,-0.2,NA,0.0478,Pearson,H3,canonical,mRNA_expression,Overexpression
+MACROH2A1,HNSC,Aneuploidy.Score,-0.23,NA,0.000000195,Pearson,H2A,variant,mRNA_expression,Overexpression
+MACROH2A1,TGCT,Aneuploidy.Score,-0.29,NA,0.000413,Pearson,H2A,variant,mRNA_expression,Overexpression
+MACROH2A2,KICH,Aneuploidy.Score,-0.28,NA,0.0262,Pearson,H2A,variant,mRNA_expression,Overexpression
+MACROH2A2,LGG,Aneuploidy.Score,-0.21,NA,0.0000032,Pearson,H2A,variant,mRNA_expression,Overexpression
+MACROH2A2,UVM,Aneuploidy.Score,-0.44,NA,0.0000358,Pearson,H2A,variant,mRNA_expression,Overexpression
+H3-3B,NA,Aneuploidy.Score_high,NA,2.310059054,0.047402381,Chi_square,H3,variant,Mutation,"K37M,  A48T,  A88T,  E106K, R117K,  E95del,  E98K,  G45W,  I120V,  K116Efs*31,  L127V,  P31L,  P67L,  P67S,  Q86H,  R135Sfs*12,  R27G,  R41H,  R64W,  R73M,  R9L,  S11F,  T33S,  T59I,  X43_splice,  Y55N"
+H2AC7,NA,Aneuploidy.Score_high,NA,2.188222447,0.058159844,Chi_square,H2A,canonical,Mutation,"H124Pfs*?,  A11P,  A15T,  A54S,  E122Q,  E62D,  G23*,  G3E,  G47C,  G5A,  G68A,  K120N,  K14N,  K76N,  L35H,  L94I,  M1?,  N39Kfs*62,  N90I,  P49L,  Q25*,  Q25P,  R43*,  R82Pfs*19,  S123R,  V115A"
+H2AC4,NA,Aneuploidy.Score_high,NA,1.806764633,0.115479105,Chi_square,H2A,canonical,Mutation,"E122Q,  K96T,  R30Q,  A127V,  A15V,  D73N,  E122K,  E57*,  E57K,  E57Q,  E65Q,  E93K,  G38C G38V,  G38D,  G38D G38S,  G99W,  H32R,  K130N,  K76del,  L94R,  P27H,  Q113K,  R12L,  S123T,  S20C,  T77A,  V101M,  Y58C,"
+H2BC5,NA,Aneuploidy.Score_high,NA,1.574185486,0.145719343,Chi_square,H2B,canonical,Mutation,"E3Q,  E77Q,  *127Qext*13,  A10V,  A18_V19insT,  A22G,  A8G,  D52N,  D69H,  E72Q,  E94D,  G105R,  G105W,  H50Y,  I62N,  I74M,  I95V,  K126N,  K12Q,  K31E,  K35R,  K44N,  MUTATED,  P4S,  Q23L,  R32L,  S37C,  S37R,  S7Y,  S88*,  S92P,  T123A,  V119D,  V119F,  V40M,  V42A,  V49F,  V99L,  Y122C,  Y122H,  Y43*"
+H2AC20,NA,Aneuploidy.Score_high,NA,1.527693316,0.162870504,Chi_square,H2A,canonical,Mutation,"E92K,  Q105H,  R30P,  A67V,  D91H,  D91Y,  E57Q,  E65*,  E93del,  G9V,  I112F,  I63Sfs*32,  K*129fs,  K100Sfs*11,  K75N P81T,  K76del,  K96M,  L116Vfs*27,  L117*,  L117Sfs*28,  L94V,  N74del,  P49A,  Q105E,  Q113*,  Q7H,  R12P,  R36L,  R4H G5C,  R82P,  R89P,  S128G,  S19*,  S20P,  S2C,  T102A,  T121I,  T121N,  T77A,  T77M,  Y51C"
+H2BC9,NA,Aneuploidy.Score_medium,NA,2.121180747,0.013525098,Chi_square,H2B,canonical,Mutation,"E77K,  E114K,  E114Q,  E72Q,  A10V,  D26N,  D3H,  D52_T53del,  D69H,  D69N,  D69N E77Q D26N,  E36D,  E72K,  E77Q,  E94Q,  G27S G27D,  G76S,  K6_A8del,  K86N,  L103V,  P11L,  P2L,  P9L,  Q23H,  Q23H A111T,  R30C,  R34C,  R73C,  S125C,  S15C,  S15Y,  S39C,  T120Pfs*?,  Y43C"
+H2AC8,NA,Aneuploidy.Score_medium,NA,2.003000824,0.019607504,Chi_square,H2A,canonical,Mutation,"A61P,  K120N,  A114T,  A11T,  A22T,  A53V,  A70T,  D73N P110S,  E42Q,  E62D,  E65Q,  E65V,  E93K,  E93Sfs*2,  G38S,  G3E,  G47S,  H32R,  I103F,  I80V,  K126T,  K75N,  K76del,  L35F,  L66V,  N69H,  N74I,  P27L,  P27S,  Q25*,  Q7H,  R21M,  R36H,  R72G,  R78C,  R89S,  S19F,  S41F,  Y51C"
+H2AC13,NA,Aneuploidy.Score_medium,NA,2.219323398,0.025390008,Chi_square,H2A,canonical,Mutation,"*131Yext*?,  A11V,  A54V,  A67V,  E122Q,  E62D,  E65G,  G29S,  G3E,  G68D,  K119T,  K128*,  L84I,  L98M,  N111K,  N74K,  P27L,  P49L,  R12C,  R12G,  R30P,  R33C,  R4H,  R72C,  S2C,  S2F,  S2Y,  T77S,  V115L"
+H3C2,NA,Aneuploidy.Score_medium,NA,1.61328603,0.029589031,Chi_square,H3,canonical,Mutation,"E74K,  E134Q,  E106K,  E106Q,  E51D,  E51Q,  E74Q,  E98K,  R132C,  R135Sfs*12,  R73P,  A136Rfs*?,  A22T,  A22V P67L,  A32D,  A48V,  A96S,  C97Y,  D124H,  D124N,  D124Tfs*?,  D82N,  E134*,  E134K,  E51Q E95*,  E95*,  E95K,  E98*,  F79L,  G133E,  G34C,  G35D,  H114N,  K116E,  K28E,  K38Sfs*25,  K80N,  L104F,  P17S,  P39H,  P39S"
+H3C13,NA,Aneuploidy.Score_medium,NA,2.088212909,0.039516571,Chi_square,H3,canonical,Mutation,"E106K,  E98K,  A8V,  D107H,  D124Y K123N,  E51D,  E60A,  E98Q,  G103R,  G35R,  H40Q,  I125V,  K116*,  K37M,  K5N,  K80*,  L127F,  M91I,  Q56*,  R130C,  R135Q,  R9C,  R9S,  S11L,  T119A,  T4S"
+H3C4,NA,Aneuploidy.Score_medium,NA,1.709264087,0.047691757,Chi_square,H3,canonical,Mutation,"R27P,  E106K,  R135S,  R27G,  A112D,  A128S,  A22S,  A48V,  A89V,  C97Y,  C97Y R117Q,  D78E,  D82V,  E106Q,  E106Q A2S,  E106Q R3G,  E98K,  F105L,  F68Y,  G133R G133E,  G35D G35S,  H114N,  K37M,  K80N,  K80Rfs*5,  N109S,  P31S,  P39L,  P44L,  P67R,  P67S,  R132L,  R18H,  R27L,  R53C,  S87T,  T12M,  V118A,  V72G,  X6_splice,  X7_splice"
+H2BC8,NA,Aneuploidy.Score_medium,NA,1.566601662,0.070017208,Chi_square,H2B,canonical,Mutation,"E114K,  E114Q,  E72K,  M63I,  P9S,  A75T,  A75V,  D26Afs*20,  D52E,  D52N,  E36K,  E3V,  E72K K86M,  E77*,  E77Q,  F66L,  F66S,  G105R,  G14_K17del,  G61C,  G61D,  G76A,  G76Afs*?,  H110Y,  I55M,  I70M,  K117E,  K13del,  K24Q,  K25del,  K28R,  K31E,  K86N,  P11R,  P4T,  P51R,  P9A,  P9del,  Q23H,  R34C,  R34P"
+H2BC12,NA,Aneuploidy.Score_medium,NA,1.648332968,0.080758604,Chi_square,H2B,canonical,Mutation,"E3K,  V40I,  A82T,  D69G,  E114D,  E114K,  E114Q,  E36D,  E36K,  F71L,  G105V,  G14C,  G27D T123A,  H110N,  H110Y,  K126N,  K21E,  K24M  K28N,  K44R,  MUTATED,  N68K,  N85T,  P9A,  Q23K,  R30H,  R32C,  R73H,  R93K,  S15L,  S56Y,  S57C,  V112A,  V19M,  V67I,"
+H2AZ1,NA,Aneuploidy.Score_medium,NA,1.685342458,0.121522444,Chi_square,H2A,variant,Mutation,"R81C,  S21L,  A17G,  A2G,  A52V,  A56P,  A73T,  D9N,  G109C,  H113R,  H34N,  I105S,  K5N,  K8N,  L59M,  R32H G11E,  R32S,  S39Y,  S43C,  S43I,  S99Y,  T41K,  T42S,  V128Lfs*23"
+H2BC21,NA,Aneuploidy.Score_medium,NA,1.490839592,0.13112217,Chi_square,H2B,canonical,Mutation,"F71L,  A10S,  A118V,  A5G,  A5T,  E114K,  E3Q,  E77*,  E77Q,  G115S,  G27A,  H50Tfs*14,  I40M,  I95M,  K121E,  K24N,  K58E,  K6I,  L107V,  M63I,  N64S,  N85K,  N85del,  P104L,  P104S,  P4L,  P4S,  Q23Rfs*19,  R34H,  S124G,  S15C,  S39C,  S65C,  S7T,  S88C,  T97A,  V119A"
+H3-5,NA,Aneuploidy.Score_medium,NA,1.440340804,0.132165161,Chi_square,H3,variant,Mutation,"R49*,  E97K,  R128H,  R129L,  R52C,  S32Lfs*5,  V46M,  A16Pfs*21,  A25V,  A47S,  A75V,  A91V,  A91V G35R,  D81N,  E105D,  F78L,  G35R,  L109M,  L61F,  N108I,  P31L,  R129Q,  R131Q,  R131W,  R134S,  R134Sfs*12,  R40C Q6H,  R52H,  R9C,  S29Afs*8,  S57L,  T23M D123Y,  T33A,  T80I,  V101A,  V89I,  V89I N79K"
+H2AC6,NA,Aneuploidy.Score_medium,NA,1.390657948,0.214592664,Chi_square,H2A,canonical,Mutation,"E57Q,  R21C,  A114S,  A71T,  E122K,  E122Q,  E57K,  E62D,  E92K,  G107C,  G129D,  G45W,  I80T,  K126R,  K126R H125R,  K76N,  K76del,  L84F,  N39D,  N39Gfs*14,  N39S,  P118A,  P49_A53del,  P81Q,  R100Q,  R4H,  R78H,  S123T,  S2P,  T102I,  T60A,  Y58C"
+H1-2,NA,Aneuploidy.Score_medium,NA,1.217458875,0.223987774,Chi_square,H1,canonical,Mutation,"K109N,  K172N,  K213del,  K85N,  A142T,  A145G K136M N108Sfs*10,  A15V,  A177T,  A190T,  A49Gfs*4,  A60P,  A65Sfs*8,  A65V,  A67T,  D72N P9R,  E3K,  E42Q,  E53K,  E74K,  F105C,  G143V,  G29R,  G29Wfs*6,  G37D,  G91D A134Qfs*33 G103D,  K110N,  K117R,  K119R,  K129N,  K136N,  K149del,  K152E,  K159_A163del,  K160E,  K168N,  K168N K149N,  K178M,  K178N,  K181E,  K196M,  K199E"
+H3C7,NA,Aneuploidy.Score_medium,NA,1.329726153,0.241386126,Chi_square,H3,canonical,Mutation,"E106K,  V72A,  A26T,  A76V,  D107N,  E95K,  E98Q,  F105Gfs*4,  F79L,  G34S,  I120L,  L104Sfs*15,  L62V,  L62del,  M1?,  P17Q,  P31T,  P39T,  Q56E,  Q56H,  Q69R,  R135Gfs*?,  R43M,  R64H,  R73L,  R9H,  S29I,  S58L,  T108I,  T119Qfs*?,  T23P,  T23S,  V118M,  Y100F"
+H1-8,NA,Aneuploidy.Score_medium,NA,1.292355109,0.24988305,Chi_square,H1,variant,Mutation,"A143T,  A192T,  R69C,  T266M,  X127_splice,  A121Pfs*7,  A143Rfs*31,  A288T,  A299D,  D206N,  D9N,  G19*,  G202C,  G292R,  I332M,  K155Efs*8,  K175R,  K264N,  K281N,  L315F,  P142H,  P142T,  P146L,  P146S,  P160S,  P167A,  Q247H,  Q342H,  R107C,  R326*,  R57C,  R70W,  R92H,  S335L,  S5Afs*93,  S73L,  T15Lfs*83"
