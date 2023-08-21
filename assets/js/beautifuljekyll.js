@@ -17,13 +17,13 @@ let BeautifulJekyllJS = {
         }
     });
 
-    // On mobile, hide the avatar when expanding the navbar menu
-   // $('#main-navbar').on('show.bs.collapse', function () {
-   //   $(".navbar").addClass("top-nav-expanded");
-   // });
-   // $('#main-navbar').on('hidden.bs.collapse', function () {
-   //   $(".navbar").removeClass("top-nav-expanded");
-   // });
+     On mobile, hide the avatar when expanding the navbar menu
+    $('#main-navbar').on('show.bs.collapse', function () {
+     $(".navbar").addClass("top-nav-expanded");
+    });
+    $('#main-navbar').on('hidden.bs.collapse', function () {
+      $(".navbar").removeClass("top-nav-expanded");
+    });
 
     // show the big header image
     BeautifulJekyllJS.initImgs();
@@ -75,13 +75,13 @@ let BeautifulJekyllJS = {
           setTimeout(function(){ img.css("opacity", "1"); }, 50);
 
           // after the animation of fading in the new image is done, prefetch the next one
-          //img.one("transitioned webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){
+          img.one("transitioned webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){
           setTimeout(function() {
             BeautifulJekyllJS.setImg(src, desc);
             img.remove();
             getNextImg();
           }, 1000);
-          //});
+          });
         }, 6000);
       };
 
