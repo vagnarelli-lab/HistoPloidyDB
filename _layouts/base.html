@@ -23,24 +23,24 @@ common-js:
 <html lang="{{ page.language | default: site.language | default: 'en' }}">
 <!-- Beautiful Jekyll 6.0.1 | Copyright Dean Attali 2023 -->
 {% include head.html %}
-<div id="header_wrap" class="outer">
 
-  <header class="inner">
-      <!--<div id="logo"></div> -->
-      <img class="img-responsive" src="images/histoploidy_logo.tif" alt="">
-      <br>
-      <h1 id="project_title" style="text-align: center;">HistoPloidyDB</h1>
-      <br>
-      <!--<h2 id="project_tagline">test</h2>
-      <h2 id="project_tagline">test1</h2>-->
-  </header>
-</div>
 <body>
 
   {% include gtm_body.html %}
 
   {% include nav.html %}
+  <div id="header_wrap" class="outer">
 
+    <header class="inner">
+        <!--<div id="logo"></div> -->
+        <img class="img-responsive" src="images/histoploidy_logo.tif" alt="">
+        <br>
+        <h1 id="project_title" style="text-align: center;">HistoPloidyDB</h1>
+        <br>
+        <!--<h2 id="project_tagline">test</h2>
+        <h2 id="project_tagline">test1</h2>-->
+    </header>
+  </div>
 
   {{ content }}
 
