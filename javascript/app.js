@@ -8,9 +8,10 @@ function ShowHideDiv() {
 }
 //reference for the function : https://levelup.gitconnected.com/building-a-simple-website-that-outputs-results-from-a-csv-using-users-input-bfcb782ced45
 
-d3.csv("histo_ploidy_data.csv").then(function (d)
+d3.csv("histo_ploidy_data.csv").then(function (data)
     {
-        var histploidy = d;
+        var histploidy = data;
+        console.log(data[0]);
         var buttonG = d3.select("#buttonGene");
         var form = d3.select("#query_form");
         buttonG.on("click", runEnter);
@@ -36,7 +37,7 @@ d3.csv("histo_ploidy_data.csv").then(function (d)
         console.log(inputValueGene)
         console.log(inputValueGene.length)
         var filteredGene = histploidy.filter(histploidy => histploidy.gene === inputValueGene); // checks datatype
-            
+        console.log(filteredGene)    
         if (filteredGene.length === 0 && inputValueGene !=="") {
                 d3.select("p").classed('noresults', true).html("<strong>No record to match this gene name. Please contact to add this to the database</strong>")
         }
