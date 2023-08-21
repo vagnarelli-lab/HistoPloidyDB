@@ -6,7 +6,7 @@ let BeautifulJekyllJS = {
   numImgs : null,
 
   init : function() {
-    setTimeout(BeautifulJekyllJS.initNavbar, 10);
+    //setTimeout(BeautifulJekyllJS.initNavbar, 10);
 
     // Shorten the navbar after scrolling a little bit down
    // $(window).scroll(function() {
