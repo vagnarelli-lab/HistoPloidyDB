@@ -8,9 +8,9 @@ function ShowHideDiv() {
 }
 //reference for the function : https://levelup.gitconnected.com/building-a-simple-website-that-outputs-results-from-a-csv-using-users-input-bfcb782ced45
 
-d3.csv("histo_ploidy_data.csv").then(function (data)
+d3.csv("histo_ploidy_data.csv").then(function (d)
     {
-        var histploidy = data;
+        var histploidy = d;
         var buttonG = d3.select("#buttonGene");
         var form = d3.select("#query_form");
         buttonG.on("click", runEnter);
@@ -35,11 +35,11 @@ d3.csv("histo_ploidy_data.csv").then(function (data)
         var inputValueGene = inputElementGene.property("value").toUpperCase().trim();
         console.log(inputValueGene)
         console.log(inputValueGene.length)
-        var filteredGene = histploidy.filter(histploidy => histploidy.Gene_Symbol === inputValueGene); // checks datatype
+        var filteredGene = histploidy.filter(histploidy => histploidy.gene === inputValueGene); // checks datatype
             
-        //if (filteredGene.length === 0 && inputValueGene !=="") {
-                //d3.select("p").classed('noresults', true).html("<strong>No record to match this gene symbol. Please contact to add this to the database</strong>")
-        //}
+        if (filteredGene.length === 0 && inputValueGene !=="") {
+                d3.select("p").classed('noresults', true).html("<strong>No record to match this gene name. Please contact to add this to the database</strong>")
+        }
         console.log(filteredGene)
         for (var k = 0; k < filteredGene.length; k++) {
             d3.select("tbody").insert("tr").html(
