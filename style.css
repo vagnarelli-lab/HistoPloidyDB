@@ -44,19 +44,20 @@ and also iPads specifically.
     td:nth-of-type(11):before { content: "histone_alteration_detailed"; }
 
 }
-logo{
+/*logo{
      width:100px;
     height:100px;
      width: min(50vw, 100px);
      position: absolute;
      float:left;
     top: 12pt;
-  /*background-image:url(images/lab_logo.tif);*/
- }
+  background-image:url(images/lab_logo.tif);
+ }*/
  img { 
      width:auto;
      max-height:100%;
      position: absolute;
+     top: 12pt;
     /* height:auto; */
     display:block;
     border:0;
