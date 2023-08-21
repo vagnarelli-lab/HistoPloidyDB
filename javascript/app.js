@@ -8,7 +8,7 @@ function ShowHideDiv() {
 }
 //reference for the function : https://levelup.gitconnected.com/building-a-simple-website-that-outputs-results-from-a-csv-using-users-input-bfcb782ced45
 
-d3.csv("./data/histo_ploidy_data.csv").then(function (data)
+d3.csv("data/histo_ploidy_data.csv").then(function (data)
     {
         var histploidy = data;
         var buttonG = d3.select("#buttonGene");
