@@ -2,9 +2,9 @@ function ShowHideDiv() {
     var dvGene = document.getElementById("dvGene");
     var dvFindGene=document.getElementById("dvFindGene")
     //dvGene.style.display = RGene.checked ? "block" : "none";
-    dvGene.style.display = "block" : "none";
+    dvGene.style.display = "block";
     //dvFindGene.style.display = RGene.checked ? "block" : "none";
-    dvFindGene.style.display = "block" : "none";
+    dvFindGene.style.display = "block";
     d3.select("tbody").html("");
     d3.select("p").classed('noresults', true).html("");
 }

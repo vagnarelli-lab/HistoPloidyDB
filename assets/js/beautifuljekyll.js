@@ -86,11 +86,11 @@ let BeautifulJekyllJS = {
       //};
 
       // If there are multiple images, cycle through them
-      if (BeautifulJekyllJS.numImgs > 1) {
-        getNextImg();
-      }
-    }
-  },
+     // if (BeautifulJekyllJS.numImgs > 1) {
+     //   getNextImg();
+     // }
+   // }
+ // },
 
   getImgInfo : function() {
     const randNum = Math.floor((Math.random() * BeautifulJekyllJS.numImgs) + 1);
