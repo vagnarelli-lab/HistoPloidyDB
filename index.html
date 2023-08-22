@@ -21,7 +21,7 @@ layout: base
 <body id="page_body">
 
 <br>
-<form id=”query_form”>
+<form id=”query_form” onload="ShowHideDiv()">
     <!--<div class="search">
         <p>Select Search Criteria</p>
         <input type="radio" id="RGene" name="chkCriterion" value="gene" onclick="ShowHideDiv()" />
@@ -29,7 +29,7 @@ layout: base
     </div> -->
     <p>Enter Histone Gene Name</p>
     <div id="dvGene" style="display:none" class="search">
-        <input class="form-control"  id="user-input-gene"  placeholder="Enter Gene Name">
+        <input class="form-control"  id="user-input-gene"  placeholder="Enter Gene Name" >
     </div>
 
     <div id="dvFindGene" style="display:none" class="search">
