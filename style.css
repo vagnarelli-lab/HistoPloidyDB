@@ -54,11 +54,13 @@ and also iPads specifically.
   background-image:url(images/lab_logo.tif);
  }*/
  img { 
-     width:auto;
+     height:auto;
      max-height:100%;
      position: absolute;
-    /* height:auto; */
     display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     border:0;
     outline: 0;
     box-shadow: none;
