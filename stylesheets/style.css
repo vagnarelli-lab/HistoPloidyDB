@@ -80,8 +80,13 @@ text-align: justify;
 @media only screen and (max-width: 480px){
 
 }
-
-h3,h5 {
+#project_tagline{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+h5 {
     text-align: center;
 }
 a{
