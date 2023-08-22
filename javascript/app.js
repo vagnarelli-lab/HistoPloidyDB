@@ -28,10 +28,10 @@ d3.csv("labdata/histo_ploidy_data.csv").then(function (data)
 
         d3.select("tbody").html("");
         d3.select("p").classed('noresults', true).html(""); // to clear previous no result message
-        var inputValue;
-        if (document.getElementById('RGene').checked){
-            inputValue=document.getElementById('RGene').value;
-        }
+        //var inputValue;
+        //if (document.getElementById('RGene').checked){
+          //  inputValue=document.getElementById('RGene').value;
+       // }
         
         var inputElementGene = d3.select("#user-input-gene");
         var inputValueGene = inputElementGene.property("value").toUpperCase().trim();
