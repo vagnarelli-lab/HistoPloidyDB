@@ -60,11 +60,11 @@ and also iPads specifically.
   }
  img { 
     height:auto;
-    max-height:100%;
+    max-height:80%;
     display:block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 80%;
     border:0;
     outline: 0;
     box-shadow: none;
