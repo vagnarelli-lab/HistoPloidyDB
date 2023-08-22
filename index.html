@@ -22,16 +22,16 @@ layout: base
 
 <br>
 <form id=”query_form”>
-    <div>
+    <div class="search">
         <p>Select Search Criteria</p>
         <input type="radio" id="RGene" name="chkCriterion" value="gene" onclick="ShowHideDiv()" />
         Gene Name
     </div>
-    <div id="dvGene" style="display:none">
+    <div id="dvGene" style="display:none",class="search">
         <input class="form-control"  id="user-input-gene"  placeholder="Enter Gene Name">
     </div>
 
-    <div id="dvFindGene" style="display:none">
+    <div id="dvFindGene" style="display:none",class="search">
         <br>
         <button class="btn btn-secondary" type="button" id="buttonGene">Find </button>
     </div>
