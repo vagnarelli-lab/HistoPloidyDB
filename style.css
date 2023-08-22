@@ -81,29 +81,8 @@ text-align: justify;
 
 }
 
-h5 {
+h3,h5 {
     text-align: center;
-    color:#ffffff;
-}
-h3 {
-    text-align: center;
-}
-
- #footer_para {
-    color:#ffffff;
-     background: none;
-     font-size: 12px;
-}
-#footer_ul {
-    color:#ffffff;
-    background: none;
-    font-size: 12px;
-    /*text-align: justify;*/
-}
-#footer_p {
-    color:#ffffff;
-    background: none;
-    font-size: 12px;
 }
 a{
     transition: none; /* stops disappearing footer  */
