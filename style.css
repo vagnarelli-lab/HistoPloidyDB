@@ -56,7 +56,7 @@ and also iPads specifically.
  img { 
      height:auto;
      max-height:100%;
-     position: absolute;
+     
     display:block;
     margin-left: auto;
     margin-right: auto;
