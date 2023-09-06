@@ -1,4 +1,4 @@
-gene,TCGA_cancer_type,aneuploidy_metric,Pearson_correlation,odds_ratio,p,method,histone_family,histone_type,histone_alteration,histone_alteration_detailed
+gene,TCGA_cancer_type,aneuploidy_metric,Pearson_correlation,odds_ratio,p_value,method,histone_family,histone_type,histone_alteration,histone_alteration_detailed
 MACROH2A2,UVM,Aneuploidy.Score,-0.44,NA,0.0000358,Pearson,H2A,variant,mRNA_expression,Overexpression
 H2BC11,THYM,Aneuploidy.Score,-0.33,NA,0.000753,Pearson,H2B,canonical,mRNA_expression,Overexpression
 H1-10,THYM,Aneuploidy.Score,-0.32,NA,0.000874,Pearson,H1,variant,mRNA_expression,Overexpression
@@ -162,7 +162,7 @@ H1-10,LUSC,Aneuploidy.Score,0.2,NA,0.00000625,Pearson,H1,variant,CNV,CNV
 H1-10,OV,Aneuploidy.Score,0.41,NA,1.23E-23,Pearson,H1,variant,CNV,CNV
 H1-10,PRAD,Aneuploidy.Score,0.26,NA,7.67E-09,Pearson,H1,variant,CNV,CNV
 H1-10,READ,Aneuploidy.Score,0.21,NA,0.0105,Pearson,H1,variant,CNV,CNV
-H1-10,UCEC,Aneuploidy.Score,0.42,NA,5.6E-23,Pearson,H1,variant,CNV,CNV
+H1-10,UCEC,Aneuploidy.Score,0.42,NA,5.60E-23,Pearson,H1,variant,CNV,CNV
 H1-2,DLBC,Aneuploidy.Score,0.49,NA,0.000482,Pearson,H1,canonical,CNV,CNV
 H1-2,STAD,Aneuploidy.Score,0.21,NA,0.0000154,Pearson,H1,canonical,CNV,CNV
 H1-2,UCEC,Aneuploidy.Score,0.34,NA,5.04E-15,Pearson,H1,canonical,CNV,CNV
@@ -177,7 +177,7 @@ H1-4,UCEC,Aneuploidy.Score,0.31,NA,2.43E-13,Pearson,H1,canonical,CNV,CNV
 H1-5,DLBC,Aneuploidy.Score,0.44,NA,0.00204,Pearson,H1,canonical,CNV,CNV
 H1-5,READ,Aneuploidy.Score,0.25,NA,0.00146,Pearson,H1,canonical,CNV,CNV
 H1-5,STAD,Aneuploidy.Score,0.22,NA,0.00000594,Pearson,H1,canonical,CNV,CNV
-H1-5,UCEC,Aneuploidy.Score,0.33,NA,1.5E-14,Pearson,H1,canonical,CNV,CNV
+H1-5,UCEC,Aneuploidy.Score,0.33,NA,1.50E-14,Pearson,H1,canonical,CNV,CNV
 H1-6,DLBC,Aneuploidy.Score,0.52,NA,0.000158,Pearson,H1,canonical,CNV,CNV
 H1-6,STAD,Aneuploidy.Score,0.21,NA,0.00000835,Pearson,H1,canonical,CNV,CNV
 H1-6,UCEC,Aneuploidy.Score,0.32,NA,1.08E-13,Pearson,H1,canonical,CNV,CNV
@@ -219,11 +219,11 @@ H2AC14,UCEC,Aneuploidy.Score,0.33,NA,1.28E-14,Pearson,H2A,canonical,CNV,CNV
 H2AC15,DLBC,Aneuploidy.Score,0.41,NA,0.00375,Pearson,H2A,canonical,CNV,CNV
 H2AC15,READ,Aneuploidy.Score,0.25,NA,0.00146,Pearson,H2A,canonical,CNV,CNV
 H2AC15,STAD,Aneuploidy.Score,0.22,NA,0.00000467,Pearson,H2A,canonical,CNV,CNV
-H2AC15,UCEC,Aneuploidy.Score,0.33,NA,1.5E-14,Pearson,H2A,canonical,CNV,CNV
+H2AC15,UCEC,Aneuploidy.Score,0.33,NA,1.50E-14,Pearson,H2A,canonical,CNV,CNV
 H2AC16,DLBC,Aneuploidy.Score,0.44,NA,0.00204,Pearson,H2A,canonical,CNV,CNV
 H2AC16,READ,Aneuploidy.Score,0.25,NA,0.00146,Pearson,H2A,canonical,CNV,CNV
 H2AC16,STAD,Aneuploidy.Score,0.22,NA,0.00000594,Pearson,H2A,canonical,CNV,CNV
-H2AC16,UCEC,Aneuploidy.Score,0.33,NA,1.5E-14,Pearson,H2A,canonical,CNV,CNV
+H2AC16,UCEC,Aneuploidy.Score,0.33,NA,1.50E-14,Pearson,H2A,canonical,CNV,CNV
 H2AC17,DLBC,Aneuploidy.Score,0.41,NA,0.00397,Pearson,H2A,canonical,CNV,CNV
 H2AC17,READ,Aneuploidy.Score,0.25,NA,0.00146,Pearson,H2A,canonical,CNV,CNV
 H2AC17,STAD,Aneuploidy.Score,0.21,NA,0.0000101,Pearson,H2A,canonical,CNV,CNV
@@ -231,17 +231,17 @@ H2AC17,UCEC,Aneuploidy.Score,0.32,NA,1.43E-13,Pearson,H2A,canonical,CNV,CNV
 H2AC18,GBM,Aneuploidy.Score,0.21,NA,0.000000815,Pearson,H2A,canonical,CNV,CNV
 H2AC18,LUAD,Aneuploidy.Score,0.2,NA,0.00000733,Pearson,H2A,canonical,CNV,CNV
 H2AC18,OV,Aneuploidy.Score,0.26,NA,3.29E-10,Pearson,H2A,canonical,CNV,CNV
-H2AC18,THYM,Aneuploidy.Score,0.54,NA,3.1E-09,Pearson,H2A,canonical,CNV,CNV
+H2AC18,THYM,Aneuploidy.Score,0.54,NA,3.10E-09,Pearson,H2A,canonical,CNV,CNV
 H2AC20,GBM,Aneuploidy.Score,0.21,NA,0.000000815,Pearson,H2A,canonical,CNV,CNV
 H2AC20,LUAD,Aneuploidy.Score,0.2,NA,0.00000733,Pearson,H2A,canonical,CNV,CNV
 H2AC20,OV,Aneuploidy.Score,0.26,NA,3.29E-10,Pearson,H2A,canonical,CNV,CNV
-H2AC20,THYM,Aneuploidy.Score,0.54,NA,3.1E-09,Pearson,H2A,canonical,CNV,CNV
+H2AC20,THYM,Aneuploidy.Score,0.54,NA,3.10E-09,Pearson,H2A,canonical,CNV,CNV
 H2AC21,GBM,Aneuploidy.Score,0.21,NA,0.000000815,Pearson,H2A,canonical,CNV,CNV
 H2AC21,LUAD,Aneuploidy.Score,0.2,NA,0.00000733,Pearson,H2A,canonical,CNV,CNV
 H2AC21,OV,Aneuploidy.Score,0.26,NA,3.29E-10,Pearson,H2A,canonical,CNV,CNV
-H2AC21,THYM,Aneuploidy.Score,0.54,NA,3.1E-09,Pearson,H2A,canonical,CNV,CNV
+H2AC21,THYM,Aneuploidy.Score,0.54,NA,3.10E-09,Pearson,H2A,canonical,CNV,CNV
 H2AC25,HNSC,Aneuploidy.Score,0.22,NA,0.000000548,Pearson,H2A,canonical,CNV,CNV
-H2AC25,LGG,Aneuploidy.Score,0.33,NA,2.1E-14,Pearson,H2A,canonical,CNV,CNV
+H2AC25,LGG,Aneuploidy.Score,0.33,NA,2.10E-14,Pearson,H2A,canonical,CNV,CNV
 H2AC25,OV,Aneuploidy.Score,0.28,NA,2.18E-11,Pearson,H2A,canonical,CNV,CNV
 H2AC25,STAD,Aneuploidy.Score,0.23,NA,0.00000204,Pearson,H2A,canonical,CNV,CNV
 H2AC25,THYM,Aneuploidy.Score,0.66,NA,1.76E-14,Pearson,H2A,canonical,CNV,CNV
@@ -262,7 +262,7 @@ H2AC8,UCEC,Aneuploidy.Score,0.32,NA,5.44E-14,Pearson,H2A,canonical,CNV,CNV
 H2AJ,ESCA,Aneuploidy.Score,0.21,NA,0.00807,Pearson,H2A,variant,CNV,CNV
 H2AJ,HNSC,Aneuploidy.Score,0.28,NA,1.44E-10,Pearson,H2A,variant,CNV,CNV
 H2AJ,KICH,Aneuploidy.Score,0.41,NA,0.000668,Pearson,H2A,variant,CNV,CNV
-H2AJ,KIRC,Aneuploidy.Score,0.48,NA,8.1E-29,Pearson,H2A,variant,CNV,CNV
+H2AJ,KIRC,Aneuploidy.Score,0.48,NA,8.10E-29,Pearson,H2A,variant,CNV,CNV
 H2AJ,KIRP,Aneuploidy.Score,0.34,NA,8.42E-09,Pearson,H2A,variant,CNV,CNV
 H2AJ,LUSC,Aneuploidy.Score,0.26,NA,8.89E-09,Pearson,H2A,variant,CNV,CNV
 H2AJ,OV,Aneuploidy.Score,0.25,NA,2.01E-09,Pearson,H2A,variant,CNV,CNV
@@ -284,14 +284,14 @@ H2AZ2,LGG,Aneuploidy.Score,0.38,NA,1.34E-18,Pearson,H2A,variant,CNV,CNV
 H2AZ2,LIHC,Aneuploidy.Score,0.28,NA,7.56E-08,Pearson,H2A,variant,CNV,CNV
 H2AZ2,LUAD,Aneuploidy.Score,0.31,NA,7.37E-13,Pearson,H2A,variant,CNV,CNV
 H2AZ2,OV,Aneuploidy.Score,0.22,NA,0.000000323,Pearson,H2A,variant,CNV,CNV
-H2AZ2,PAAD,Aneuploidy.Score,0.47,NA,2.1E-10,Pearson,H2A,variant,CNV,CNV
+H2AZ2,PAAD,Aneuploidy.Score,0.47,NA,2.10E-10,Pearson,H2A,variant,CNV,CNV
 H2AZ2,PRAD,Aneuploidy.Score,0.48,NA,1.19E-28,Pearson,H2A,variant,CNV,CNV
 H2AZ2,READ,Aneuploidy.Score,0.41,NA,0.000000107,Pearson,H2A,variant,CNV,CNV
 H2AZ2,SKCM,Aneuploidy.Score,0.28,NA,5.41E-08,Pearson,H2A,variant,CNV,CNV
 H2AZ2,STAD,Aneuploidy.Score,0.36,NA,6.86E-15,Pearson,H2A,variant,CNV,CNV
 H2AZ2,TGCT,Aneuploidy.Score,0.2,NA,0.0171,Pearson,H2A,variant,CNV,CNV
 H2AZ2,THCA,Aneuploidy.Score,0.66,NA,3.81E-59,Pearson,H2A,variant,CNV,CNV
-H2AZ2,THYM,Aneuploidy.Score,0.52,NA,8.3E-09,Pearson,H2A,variant,CNV,CNV
+H2AZ2,THYM,Aneuploidy.Score,0.52,NA,8.30E-09,Pearson,H2A,variant,CNV,CNV
 H2AZ2,UVM,Aneuploidy.Score,0.26,NA,0.0192,Pearson,H2A,variant,CNV,CNV
 H2BC1,DLBC,Aneuploidy.Score,0.52,NA,0.000162,Pearson,H2B,canonical,CNV,CNV
 H2BC1,STAD,Aneuploidy.Score,0.2,NA,0.0000201,Pearson,H2B,canonical,CNV,CNV
@@ -316,7 +316,7 @@ H2BC14,UCEC,Aneuploidy.Score,0.33,NA,1.28E-14,Pearson,H2B,canonical,CNV,CNV
 H2BC15,DLBC,Aneuploidy.Score,0.41,NA,0.00375,Pearson,H2B,canonical,CNV,CNV
 H2BC15,READ,Aneuploidy.Score,0.25,NA,0.00146,Pearson,H2B,canonical,CNV,CNV
 H2BC15,STAD,Aneuploidy.Score,0.22,NA,0.00000467,Pearson,H2B,canonical,CNV,CNV
-H2BC15,UCEC,Aneuploidy.Score,0.33,NA,1.5E-14,Pearson,H2B,canonical,CNV,CNV
+H2BC15,UCEC,Aneuploidy.Score,0.33,NA,1.50E-14,Pearson,H2B,canonical,CNV,CNV
 H2BC17,DLBC,Aneuploidy.Score,0.41,NA,0.00397,Pearson,H2B,canonical,CNV,CNV
 H2BC17,READ,Aneuploidy.Score,0.25,NA,0.00146,Pearson,H2B,canonical,CNV,CNV
 H2BC17,STAD,Aneuploidy.Score,0.21,NA,0.0000101,Pearson,H2B,canonical,CNV,CNV
@@ -324,13 +324,13 @@ H2BC17,UCEC,Aneuploidy.Score,0.32,NA,1.43E-13,Pearson,H2B,canonical,CNV,CNV
 H2BC18,GBM,Aneuploidy.Score,0.21,NA,0.000000815,Pearson,H2B,canonical,CNV,CNV
 H2BC18,LUAD,Aneuploidy.Score,0.2,NA,0.00000733,Pearson,H2B,canonical,CNV,CNV
 H2BC18,OV,Aneuploidy.Score,0.26,NA,3.29E-10,Pearson,H2B,canonical,CNV,CNV
-H2BC18,THYM,Aneuploidy.Score,0.54,NA,3.1E-09,Pearson,H2B,canonical,CNV,CNV
+H2BC18,THYM,Aneuploidy.Score,0.54,NA,3.10E-09,Pearson,H2B,canonical,CNV,CNV
 H2BC21,GBM,Aneuploidy.Score,0.21,NA,0.000000815,Pearson,H2B,canonical,CNV,CNV
 H2BC21,LUAD,Aneuploidy.Score,0.2,NA,0.00000733,Pearson,H2B,canonical,CNV,CNV
 H2BC21,OV,Aneuploidy.Score,0.26,NA,3.29E-10,Pearson,H2B,canonical,CNV,CNV
-H2BC21,THYM,Aneuploidy.Score,0.54,NA,3.1E-09,Pearson,H2B,canonical,CNV,CNV
+H2BC21,THYM,Aneuploidy.Score,0.54,NA,3.10E-09,Pearson,H2B,canonical,CNV,CNV
 H2BC26,HNSC,Aneuploidy.Score,0.22,NA,0.000000548,Pearson,H2B,canonical,CNV,CNV
-H2BC26,LGG,Aneuploidy.Score,0.33,NA,2.1E-14,Pearson,H2B,canonical,CNV,CNV
+H2BC26,LGG,Aneuploidy.Score,0.33,NA,2.10E-14,Pearson,H2B,canonical,CNV,CNV
 H2BC26,OV,Aneuploidy.Score,0.28,NA,2.18E-11,Pearson,H2B,canonical,CNV,CNV
 H2BC26,STAD,Aneuploidy.Score,0.23,NA,0.00000204,Pearson,H2B,canonical,CNV,CNV
 H2BC26,THYM,Aneuploidy.Score,0.66,NA,1.76E-14,Pearson,H2B,canonical,CNV,CNV
@@ -377,7 +377,7 @@ H3-3B,PAAD,Aneuploidy.Score,0.22,NA,0.00543,Pearson,H3,variant,CNV,CNV
 H3-3B,THCA,Aneuploidy.Score,0.51,NA,8.95E-32,Pearson,H3,variant,CNV,CNV
 H3-3B,UVM,Aneuploidy.Score,0.34,NA,0.00238,Pearson,H3,variant,CNV,CNV
 H3-4,HNSC,Aneuploidy.Score,0.22,NA,0.000000548,Pearson,H3,variant,CNV,CNV
-H3-4,LGG,Aneuploidy.Score,0.33,NA,2.1E-14,Pearson,H3,variant,CNV,CNV
+H3-4,LGG,Aneuploidy.Score,0.33,NA,2.10E-14,Pearson,H3,variant,CNV,CNV
 H3-4,OV,Aneuploidy.Score,0.28,NA,2.18E-11,Pearson,H3,variant,CNV,CNV
 H3-4,STAD,Aneuploidy.Score,0.23,NA,0.00000204,Pearson,H3,variant,CNV,CNV
 H3-4,THYM,Aneuploidy.Score,0.66,NA,1.76E-14,Pearson,H3,variant,CNV,CNV
@@ -410,11 +410,11 @@ H3C12,UCEC,Aneuploidy.Score,0.32,NA,1.43E-13,Pearson,H3,canonical,CNV,CNV
 H3C13,GBM,Aneuploidy.Score,0.21,NA,0.000000815,Pearson,H3,canonical,CNV,CNV
 H3C13,LUAD,Aneuploidy.Score,0.2,NA,0.00000733,Pearson,H3,canonical,CNV,CNV
 H3C13,OV,Aneuploidy.Score,0.26,NA,3.29E-10,Pearson,H3,canonical,CNV,CNV
-H3C13,THYM,Aneuploidy.Score,0.54,NA,3.1E-09,Pearson,H3,canonical,CNV,CNV
+H3C13,THYM,Aneuploidy.Score,0.54,NA,3.10E-09,Pearson,H3,canonical,CNV,CNV
 H3C15,GBM,Aneuploidy.Score,0.21,NA,0.000000815,Pearson,H3,canonical,CNV,CNV
 H3C15,LUAD,Aneuploidy.Score,0.2,NA,0.00000733,Pearson,H3,canonical,CNV,CNV
 H3C15,OV,Aneuploidy.Score,0.26,NA,3.29E-10,Pearson,H3,canonical,CNV,CNV
-H3C15,THYM,Aneuploidy.Score,0.54,NA,3.1E-09,Pearson,H3,canonical,CNV,CNV
+H3C15,THYM,Aneuploidy.Score,0.54,NA,3.10E-09,Pearson,H3,canonical,CNV,CNV
 H3C2,DLBC,Aneuploidy.Score,0.49,NA,0.000482,Pearson,H3,canonical,CNV,CNV
 H3C2,STAD,Aneuploidy.Score,0.21,NA,0.0000153,Pearson,H3,canonical,CNV,CNV
 H3C2,UCEC,Aneuploidy.Score,0.34,NA,5.04E-15,Pearson,H3,canonical,CNV,CNV
@@ -469,7 +469,7 @@ H1-6,LGG,Aneuploidy.Score,-0.2,,0.00000732,Pearson,H1,canonical,CNV,CNV
 H1-6,PAAD,Aneuploidy.Score,-0.23,,0.00248,Pearson,H1,canonical,CNV,CNV
 H1-6,THYM,Aneuploidy.Score,-0.49,,0.000000107,Pearson,H1,canonical,CNV,CNV
 H1-8,UVM,Aneuploidy.Score,-0.25,,0.0239,Pearson,H1,variant,CNV,CNV
-H2AC1,KIRC,Aneuploidy.Score,-0.31,,6.2E-12,Pearson,H2A,canonical,CNV,CNV
+H2AC1,KIRC,Aneuploidy.Score,-0.31,,6.20E-12,Pearson,H2A,canonical,CNV,CNV
 H2AC1,PAAD,Aneuploidy.Score,-0.23,,0.00247,Pearson,H2A,canonical,CNV,CNV
 H2AC1,THYM,Aneuploidy.Score,-0.49,,0.000000107,Pearson,H2A,canonical,CNV,CNV
 H2AC11,KIRC,Aneuploidy.Score,-0.29,,7.21E-11,Pearson,H2A,canonical,CNV,CNV
@@ -525,7 +525,7 @@ H2AZ1,READ,Aneuploidy.Score,-0.23,,0.00456,Pearson,H2A,variant,CNV,CNV
 H2AZ1,STAD,Aneuploidy.Score,-0.32,,7.14E-12,Pearson,H2A,variant,CNV,CNV
 H2AZ1,UCEC,Aneuploidy.Score,-0.36,,2.42E-17,Pearson,H2A,variant,CNV,CNV
 H2AZ1,UCS,Aneuploidy.Score,-0.3,,0.0256,Pearson,H2A,variant,CNV,CNV
-H2BC1,KIRC,Aneuploidy.Score,-0.31,,6.2E-12,Pearson,H2B,canonical,CNV,CNV
+H2BC1,KIRC,Aneuploidy.Score,-0.31,,6.20E-12,Pearson,H2B,canonical,CNV,CNV
 H2BC1,PAAD,Aneuploidy.Score,-0.23,,0.00247,Pearson,H2B,canonical,CNV,CNV
 H2BC1,THYM,Aneuploidy.Score,-0.49,,0.000000107,Pearson,H2B,canonical,CNV,CNV
 H2BC10,KIRC,Aneuploidy.Score,-0.3,,8.55E-12,Pearson,H2B,canonical,CNV,CNV
@@ -632,3 +632,1057 @@ MACROH2A2,LGG,Aneuploidy.Score,-0.47,,9.46E-29,Pearson,H2A,variant,CNV,CNV
 MACROH2A2,READ,Aneuploidy.Score,-0.22,,0.00646,Pearson,H2A,variant,CNV,CNV
 MACROH2A2,SKCM,Aneuploidy.Score,-0.28,,0.000000043,Pearson,H2A,variant,CNV,CNV
 MACROH2A2,UVM,Aneuploidy.Score,-0.47,,0.00000856,Pearson,H2A,variant,CNV,CNV
+CENPA,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Fusion,NCOA1-CENPA Fusion
+H2AC6,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Fusion,H2AC6-H4C5 Fusion
+H2AC6,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Fusion,H2AC6-SLC17A4 Fusion
+H2AC6,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Fusion,BTN2A1-H2AC6 Fusion
+H2AC6,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Fusion,BTN3A2-H2AC6 Fusion
+H2AC6,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Fusion,H2AC6-C6ORF89 Fusion
+H2AC6,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Fusion,H2BC9-H2AC6 Fusion
+H2AC8,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Fusion,H2AC8-CLVS2 Fusion
+H2BC5,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Fusion,H2BC5-MDN1 Fusion
+H2BC9,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Fusion,H2BC9-H2AC6 Fusion
+H3-3B,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Fusion,H3-3B-TRIM47 Fusion
+MACROH2A1,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Fusion,MACROH2A1-CNOT6 Fusion
+MACROH2A2,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Fusion,XPO7-MACROH2A2 Fusion
+H1-4,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,In_Frame_Del,A208_K212del
+H1-5,PAAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,In_Frame_Del,T155_K158del
+H1-4,DLBC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Frame_Shift_Del,A120Vfs*109
+H2BC1,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,In_Frame_Del,T117_S125del
+H1-5,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,In_Frame_Del,L96_T102del
+H1-2,MESO,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Frame_Shift_Del,K172Rfs*22
+MACROH2A1,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Frame_Shift_Del,A149Qfs*49
+MACROH2A2,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Frame_Shift_Del,K147Rfs*53
+H3C2,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Frame_Shift_Del,R135Sfs*12
+H2AC11,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Frame_Shift_Ins,*131Lfs*12
+H2AZ2,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Nonstop_Mutation,*129Yext*32
+H2AZ1,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Frame_Shift_Del,V128Lfs*23
+H2BC4,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Frame_Shift_Del,S125Pfs*33
+H2AZ2,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Frame_Shift_Del,L118Dfs*40
+H2BC11,DLBC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Frame_Shift_Del,P104Rfs*19
+H3C7,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Frame_Shift_Del,L104Sfs*15
+H2AJ,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Frame_Shift_Ins,K100Qfs*81
+H2AC20,READ,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Frame_Shift_Del,K100Sfs*11
+H2BC11,UCS,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Frame_Shift_Ins,S79Yfs*39
+H1-4,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Frame_Shift_Ins,L62Sfs*11
+H1-4,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Frame_Shift_Del,L59Cfs*13
+H1-4,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,In_Frame_Del,R54_A61delinsLLPP
+H2AC11,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Frame_Shift_Ins,L52Hfs*71
+H2BC9,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,In_Frame_Del,D52_T53del
+H1-0,LIHC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Frame_Shift_Ins,S45Ffs*18
+H3C12,GBM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Frame_Shift_Del,R41Tfs*49
+H2AC7,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Frame_Shift_Ins,N39Kfs*62
+H2AZ2,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Frame_Shift_Ins,K38Efs*35
+H3C6,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Frame_Shift_Del,K38Nfs*25
+H2BC15,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Frame_Shift_Del,G27Afs*20
+H2BC8,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Frame_Shift_Del,D26Afs*20
+H1-2,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Nonstop_Mutation,*214Yext*6
+H3-5,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Frame_Shift_Del,A16Pfs*21
+H1-8,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Frame_Shift_Del,T15Lfs*83
+H2BC8,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,In_Frame_Del,G14_K17del
+H3C7,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Frame_Shift_Ins,F105Gfs*4
+H2BC18,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Frame_Shift_Del,A10Kfs*31
+H2AC8,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Frame_Shift_Del,E93Sfs*2
+H3C6,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Frame_Shift_Del,D82Tfs*9
+H2BW2,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Frame_Shift_Del,R66Gfs*3
+H1-5,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Frame_Shift_Del,A63Qfs*7
+H2BC26,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Frame_Shift_Ins,I62Hfs*8
+H1-5,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Frame_Shift_Del,L60Sfs*3
+H1-8,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Frame_Shift_Del,S5Afs*93
+H2AC25,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Frame_Shift_Del,G45Ifs*9
+MACROH2A2,ACC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,V363M
+MACROH2A2,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,G360C
+MACROH2A2,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,E357K
+MACROH2A1,LIHC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,V339M
+H1-8,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,S335L
+H1-8,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,I332M
+H1-8,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Nonsense_Mutation,R326*
+H3-5,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Frame_Shift_Del,S32Lfs*5
+MACROH2A2,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Splice_Region,X318_splice
+H1-8,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,L315F
+MACROH2A2,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,P315H
+MACROH2A2,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,P312Q
+MACROH2A2,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,A310T
+H1-8,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,A299D
+H3-5,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Frame_Shift_Del,S29Afs*8
+MACROH2A2,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,L298M
+H1-8,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,G292R
+H1-8,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,V282L
+H1-8,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,K281N
+MACROH2A2,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,P279S
+MACROH2A2,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,H275L
+H1-8,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,K269R
+H1-8,READ,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,K264N
+H1-8,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,E259Q
+H1-7,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,E241K
+H1-7,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,R240M
+MACROH2A2,PAAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,K239N
+H1-7,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,V221M
+H1-4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Nonstop_Mutation,*220Kext*?
+H1-4,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K217N
+H1-5,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Frame_Shift_Del,K217Nfs*?
+H1-5,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K217N
+H1-7,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,E215K
+H1-10,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,K213E
+H1-2,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,In_Frame_Del,K213del
+H1-5,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,P213H
+H1-4,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K212N
+H1-1,ACC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A210T
+H1-5,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A206T
+H1-8,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,D206N
+MACROH2A2,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,D203N
+H1-8,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,G202C
+H1-5,TGCT,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A201V
+H1-3,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K199R
+H1-2,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K196M
+H1-6,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,H196Y
+H1-4,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,V194A
+H1-5,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,P193H
+H1-8,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,A192T
+H1-5,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K188N
+H1-5,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K188N
+H1-5,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,T187I
+H1-6,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A187V
+H1-2,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,P182L
+H1-3,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Nonsense_Mutation,Q182*
+H1-3,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Nonsense_Mutation,Q182*
+H1-6,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,S181N
+H1-2,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K178N
+MACROH2A1,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,T175I
+H1-2,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,S173T
+H1-2,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K172N
+H1-2,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K172N
+H1-4,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A170S
+H1-5,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K169M
+H1-5,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K169N
+H1-2,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K168N
+H1-2,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K168N
+H1-6,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,R168I
+H1-3,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A166D
+H2BW1,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,S166L
+H1-6,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,R165K
+H1-6,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,V164L
+H1-5,READ,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A163E
+H2BW1,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Splice_Region,X163_splice
+H1-5,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,P162L
+H1-2,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,P161L
+H1-5,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K160N
+H1-3,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,V159I
+H1-4,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K159N
+H1-6,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A158V
+H1-6,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A158V
+H1-1,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K157E
+H1-4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K156R
+H1-7,UCS,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,R155W
+MACROH2A1,SARC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,A155D
+H1-10,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,S154F
+H1-3,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K154N
+H1-5,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K153N
+H1-5,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K150R
+H1-7,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,A150V
+H2BW1,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,M150I
+H1-2,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K149N
+H1-6,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,T149N
+MACROH2A2,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,K147N
+H1-7,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,R146K
+H1-8,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,P146L
+H1-6,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K145N
+H1-7,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,P144H
+H1-3,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A143S
+H1-3,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A143S
+H1-4,ACC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,G143W
+H1-5,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K143N
+H1-8,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,P142T
+H1-8,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,P142H
+H2BW2,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Splice_Region,X142_splice
+MACROH2A1,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Nonsense_Mutation,Q141*
+H1-6,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,D140N
+H1-4,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K139N
+H2BW1,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,R139W
+H2AX,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,Q138K
+H3C6,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Nonstop_Mutation,*137Lext*?
+H1-2,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K136N
+H1-5,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,G136E
+H1-7,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,A135V
+H3C2,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R135T
+H3C2,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R135T
+H3C4,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R135S
+H3C7,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Frame_Shift_Del,R135Gfs*?
+H1-0,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,P134L
+H1-3,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,G134A
+H2AX,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,K134N
+H3-4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,E134Q
+H3-5,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,R134S
+H3C2,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E134Q
+H3C2,SARC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E134K
+CENPA,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,R133L
+H2BW2,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,A133T
+H2BW2,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,A133T
+H3-5,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,E133K
+H3C2,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,G133E
+H3C4,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,G133E
+H3C4,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,G133R
+H1-0,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,K132E
+H3-4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,R132H
+H3C2,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R132C
+H3C4,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R132L
+H3C7,ACC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R132G
+MACROH2A2,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,P132T
+CENPA,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,R131M
+H1-2,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,P131S
+H1-4,DLBC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,P131T
+H2AX,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,S131L
+H3-5,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,R131Q
+H3-4,READ,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,R129H
+H3-5,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,R129L
+H3-5,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,R128H
+H1-8,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Splice_Region,X127_splice
+H2AC25,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,A127D
+H3-3B,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,L127V
+H1-7,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,P126H
+H2AC21,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Nonstop_Mutation,*126*
+H2AC6,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,K126R
+H2AC8,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,K126T
+H2BC12,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,K126N
+H2BC15,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,K126N
+H2BC18,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Splice_Region,X126_splice
+H2BC26,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S125C
+H2BC4,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S125F
+H3C13,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,I125V
+H1-4,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,G124S
+H1-4,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,G124D
+H2AC7,TGCT,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Frame_Shift_Del,H124Pfs*?
+H2BC14,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S124I
+H3-4,READ,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,D124Y
+H3C2,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,D124H
+H1-1,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A123T
+H2AC6,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,S123T
+H3C12,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,K123N
+H2AC1,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E122Q
+H2AC11,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E122Q
+H2AC13,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E122Q
+H2AC4,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E122Q
+H2AC4,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E122K
+H2AC6,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E122Q
+H2AC6,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E122K
+H2AC7,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E122Q
+H2AC7,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E122K
+H2AC7,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E122Q
+H1-3,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A121T
+H1-5,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,P121S
+H2AC20,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,T121I
+H2BC1,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,T121N
+H1-4,DLBC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A120T
+H2AC7,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,K120N
+H2AC8,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,K120N
+H2BC9,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Frame_Shift_Del,T120Pfs*?
+H2BW1,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,E120K
+H3-3B,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,I120V
+H3C7,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,I120L
+H2AC14,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,K119N
+H2BC18,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,V119L
+H2BC21,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,V119A
+H2BC5,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,V119F
+H2BW1,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,T119I
+H3C13,LIHC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,T119A
+H2AC21,DLBC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,P118S
+H2AX,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,P118L
+H2AZ2,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,L118M
+H3C2,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,V118M
+H1-1,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,V117M
+H1-1,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,V117A
+H1-2,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K117R
+H2BC1,GBM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,T117A
+H2BC1,GBM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,T117A
+H3-4,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,R117Q
+H3C2,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R117Q
+H3C6,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R117H
+H2BC6,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,T116S
+H2BW1,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,R116P
+H3C13,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Nonsense_Mutation,K116*
+H2AC13,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,V115L
+H2BC21,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,G115S
+H2AC14,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,A114T
+H2AC6,PAAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,A114S
+H2AX,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,A114V
+H2BC11,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Nonsense_Mutation,E114*
+H2BC12,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E114D
+H2BC12,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E114Q
+H2BC13,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Nonsense_Mutation,E114*
+H2BC15,ACC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E114K
+H2BC21,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E114K
+H2BC4,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E114K
+H2BC8,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E114K
+H2BC8,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E114Q
+H2BC8,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E114K
+H2BC9,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E114K
+H2BC9,READ,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E114K
+H1-5,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K113E
+H1-6,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,S112T
+H1-6,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,S112N
+H2AC20,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,I112F
+H3C4,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,A112D
+H1-5,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,N111K
+H2AC21,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,N111K
+H2BC15,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,A111E
+H2BC18,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,A111T
+H2BC4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,A111P
+H2BC9,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,A111T
+H2BW1,GBM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,H111Y
+H2BW1,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,H111D
+H3C12,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,C111S
+H3C13,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,C111Y
+H1-2,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K110N
+H1-7,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,R110L
+H2BC12,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,H110N
+H2BW2,KICH,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,V110M
+H2BW2,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,V110M
+H3C12,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,L110V
+H1-2,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K109N
+H1-2,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K109N
+H1-2,DLBC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K109N
+H1-4,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K109N
+H1-4,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K109N
+H2BC1,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,A109V
+H1-4,LIHC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,N108T
+H2BC5,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,A108T
+H3-5,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,N108I
+H3C2,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,T108A
+H1-8,DLBC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,R107C
+H2AC6,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,G107C
+H2BC21,DLBC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,L107V
+H3-4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,D107N
+H3C13,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,D107H
+H3C7,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,D107N
+H2AC25,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,G106C
+H2BC15,KIRP,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E106K
+H3-4,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,E106Q
+H3-4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,E106Q
+H3C13,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E106K
+H3C13,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E106K
+H3C2,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E106K
+H3C2,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E106Q
+H3C2,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E106K
+H3C4,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E106Q
+H3C4,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E106K
+H3C4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E106Q
+H3C6,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E106K
+H3C7,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E106K
+H1-2,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,F105C
+H2AC20,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,Q105H
+H2AC20,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,Q105E
+H2BC15,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,G105E
+H2BC5,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,G105R
+H2BC5,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,G105W
+H2BC6,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,G105R
+H2BW2,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,H105Y
+H3-5,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,E105D
+H1-4,DLBC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,S104C
+H2AX,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,A104D
+H2BC11,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,P104S
+H2BC21,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,P104L
+H2BC21,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,P104S
+H2BC4,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,P104S
+H1-4,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,G103A
+H2BC4,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,L103P
+H2BC6,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,L103I
+H2BC9,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,L103V
+H3C13,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,G103R
+H3C6,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,G103W
+H1-4,ACC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,S102T
+H1-4,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,S102L
+H2AC1,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,T102I
+H2AC4,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,V101M
+H2AP,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,D101E
+H2AC1,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,G100S
+H2AC6,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R100Q
+H3-3A,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Nonsense_Mutation,Y100*
+H3C7,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,Y100F
+H1-7,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,A99E
+H2AC11,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,G99C
+H2AC4,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,G99W
+H2AP,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,E99K
+H2BC15,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,V99L
+H2BC6,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,V99L
+H1-7,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,E98K
+H3-3B,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,E98K
+H3C13,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E98K
+H3C2,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E98K
+H3C2,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Nonsense_Mutation,E98*
+H3C2,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E98K
+H3C4,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E98K
+H3C4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E98K
+H3C6,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E98K
+H3C6,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E98K
+H3C6,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E98K
+H3C7,UCS,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E98Q
+H2BC21,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,T97A
+H3-5,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,E97K
+H3-5,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,E97K
+H3C4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,C97Y
+H1-3,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,Q96H
+H1-4,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,T96S
+H2AC4,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,K96T
+H2AZ2,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Nonsense_Mutation,E96*
+H3C2,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,A96S
+H1-1,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,T95K
+H1-6,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,G95V
+H2BC13,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,I95M
+H2BC21,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,I95M
+H3-3B,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,In_Frame_Del,E95del
+H3C2,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Nonsense_Mutation,E95*
+H2AC1,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,L94P
+H2AC7,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,L94I
+H2BC18,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E94D
+H2BC21,SARC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E94D
+H2BC4,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E94D
+H2BC9,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E94Q
+H2BC9,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Nonsense_Mutation,E94*
+CENPA,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,A93T
+H1-2,LIHC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,L93P
+H2AC8,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E93K
+H2AP,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,R93C
+H2BC1,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S93F
+H2BC11,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,R93T
+H2BC26,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,R93S
+H2BC4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,R93S
+H2BC4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,R93M
+H2BC9,MESO,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,R93K
+MACROH2A1,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,Q93H
+H1-3,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,G92A
+H2AC11,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E92Q
+H2AC14,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Nonsense_Mutation,E92*
+H2AC6,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E92K
+H2AC8,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E92K
+H2AJ,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,E92Q
+H1-2,DLBC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,G91D
+H1-7,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,R91C
+H2AC1,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,D91N
+H2AC14,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,D91Y
+H2AC20,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,D91Y
+H2AC20,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,D91H
+H2AX,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,D91N
+H3C13,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,M91I
+CENPA,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,A90V
+H1-8,SARC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,V90I
+H2AC7,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,N90I
+H2BC13,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,I90T
+H1-2,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,S89N
+H1-4,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,S89R
+H1-7,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,E89K
+H2BC4,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,T89S
+H2BW1,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,L89Q
+H3-5,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,V89I
+H3-5,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,V89I
+H2BC14,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S88L
+H2BC5,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Nonsense_Mutation,S88*
+H2BC8,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S88W
+H3-3B,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,A88T
+H2BC13,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,R87P
+H3C4,DLBC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,S87T
+H2AP,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,E86K
+H2BC8,READ,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,K86N
+H2BW1,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,R86C
+H3-3B,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,Q86H
+H3C2,READ,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,Q86H
+MACROH2A2,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,A86T
+H1-2,LIHC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K85N
+H1-2,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K85N
+H2BC21,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,N85K
+MACROH2A1,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,V85M
+H1-3,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,G84D
+H2AC11,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,L84F
+H2AC13,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,L84I
+H2BC13,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,Y84C
+H1-6,KICH,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,R83H
+H2BC18,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,H83L
+H1-3,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K82E
+H2AC7,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R82Q
+H2BC12,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,A82T
+H3C4,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,D82V
+H1-3,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,I81M
+H1-3,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,I81M
+H2AC20,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,P81T
+H2AC6,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,P81Q
+H2AZ1,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,R81C
+H2AZ1,LIHC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,R81C
+H3-5,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,D81N
+H2AC14,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Frame_Shift_Del,I80Sfs*?
+H2AC6,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,I80T
+H3C13,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Frame_Shift_Ins,K80*
+H3C2,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,K80N
+H3C4,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,K80N
+H3C6,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,K80N
+H2AC1,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,I79N
+H3-5,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,N79K
+H3C2,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,F79L
+H3C7,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,F79L
+H2AP,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,M78I
+H2AX,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,R78Q
+H2AX,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,R78P
+H2BW1,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,G78R
+H3-5,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,F78L
+H3C4,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,D78E
+H1-2,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,In_Frame_Del,N77del
+H2AC13,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,T77S
+H2AC4,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,T77A
+H2AZ2,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,L77I
+H2AZ2,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,L77V
+H2BC13,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E77K
+H2BC13,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E77Q
+H2BC21,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E77Q
+H2BC26,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E77K
+H2BC4,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E77K
+H2BC4,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Nonsense_Mutation,E77*
+H2BC4,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E77K
+H2BC4,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E77K
+H2BC4,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E77K
+H2BC5,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E77K
+H2BC5,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E77Q
+H2BC5,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E77Q
+H2BC6,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E77K
+H2BC8,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E77K
+H2BC8,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E77Q
+H2BC9,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E77K
+H2BC9,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E77K
+H2BC9,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E77Q
+H2BC9,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E77K
+H2BC9,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E77K
+H2BC9,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E77Q
+H3C2,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Nonsense_Mutation,Q77*
+H2AC11,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,K76N
+H2AC20,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,In_Frame_Del,K76del
+H2AC6,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,In_Frame_Del,K76del
+H2AC7,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,K76N
+H2AC8,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,In_Frame_Del,K76del
+H2BC26,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S76G
+H2BC8,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,G76A
+H2BC8,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Frame_Shift_Del,G76Afs*?
+H3-4,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,A76T
+H3C12,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,A76T
+H1-10,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,K75N
+H2AC11,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,K75N
+H2AC11,ACC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,K75N
+H2AC14,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,K75N
+H2AC20,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,K75N
+H2AC8,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,K75N
+H2AJ,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,K75R
+H1-0,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,R74C
+H1-2,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,E74K
+H2AC8,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,N74I
+H2BC12,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,I74M
+H2BW1,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,S74C
+H3C2,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E74K
+H3C2,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E74K
+H3C2,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E74K
+H3C2,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E74K
+H3C2,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E74K
+H3C2,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E74Q
+H3C2,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E74Q
+H3C6,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E74Q
+MACROH2A2,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,A74D
+H1-10,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,E73K
+H1-7,KIRP,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,G73W
+H2AC11,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,D73G
+H2AC25,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,D73N
+H2AC4,UCS,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,D73N
+H2AZ1,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,A73T
+H2BC26,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,R73L
+H2BC6,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,R73S
+H3-3B,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,R73M
+H3C2,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R73P
+H1-2,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,D72N
+H1-2,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,D72H
+H1-3,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,Y72C
+H2AC13,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R72C
+H2AC21,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R72W
+H2AZ2,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,N72D
+H2BC4,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E72Q
+H2BC4,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E72Q
+H2BC5,KICH,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E72Q
+H2BC9,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E72K
+H2BW2,CHOL,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,H72N
+MACROH2A1,LIHC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,K72E
+H1-1,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A71V
+H1-4,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,Y71C
+H2AC25,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,A71T
+H2BC12,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,F71L
+H2BC15,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,F71S
+H2BC18,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,F71L
+H2BC18,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,F71L
+H2BC21,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,F71L
+H2BC21,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,F71L
+H2BC21,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,F71L
+H2BC21,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,F71L
+H2BC21,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,F71L
+H2BC21,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,F71L
+H2BC4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,F71L
+H1-5,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A70V
+H2AC1,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,A70G
+H2AC8,DLBC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,A70T
+H2BC1,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,D70N
+H2BC14,ACC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,I70F
+H2BC18,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,I70M
+H2BC8,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,I70M
+H2BW1,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,R70H
+H2BW1,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,R70S
+MACROH2A2,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,D70N
+CENPA,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,R69L
+CENPA,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,R69C
+H2AC6,ACC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,N69I
+H2BC12,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,D69G
+H2BC13,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,D69N
+H2BC5,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,D69H
+H2BC9,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,D69N
+H2BC9,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,D69H
+H2BC9,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,D69N
+H2BC9,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,D69H
+H2BC9,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,D69N
+H3-4,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,Q69L
+H3C7,LIHC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,Q69R
+H1-1,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A68T
+H1-4,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A68S
+H2AC13,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,G68D
+H2BC12,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,N68K
+H2AC13,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,A67V
+H2BC12,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,V67I
+H2BC9,ACC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,V67D
+H3-3B,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,P67L
+H3C2,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,P67L
+H3C2,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,P67R
+H3C4,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,P67R
+H1-5,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K66E
+H2BC8,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,F66S
+H1-5,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,L65F
+H2AC13,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E65G
+H2AC20,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Nonsense_Mutation,E65*
+H2AC4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E65Q
+H2AC8,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E65Q
+H2BC11,PAAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S65L
+H2BC21,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S65C
+H3-3A,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,K65T
+H1-4,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,In_Frame_Del,K64del
+H2BC14,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,N64K
+H2BC21,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,N64S
+H2BW1,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,R64Q
+H3C7,GBM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R64H
+H2BC18,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,M63I
+H2BC8,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,M63I
+H2AC11,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E62K
+H2AC13,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E62D
+H2AC8,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E62D
+H2AP,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,D62E
+H2AZ2,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,L62F
+H2BC13,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,I62M
+H2BC4,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,I62M
+H3C7,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,In_Frame_Del,L62del
+H1-4,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A61V
+H1-4,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A61D
+H1-6,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,M61T
+H2AC11,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,A61T
+H2AC8,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,A61P
+H2AC8,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,A61P
+H2BC15,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,G61D
+H2BC4,LIHC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,G61V
+H2BC8,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,G61D
+H3-5,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,L61F
+H1-2,DLBC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A60P
+H1-4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A60D
+H2AC21,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,T60S
+H2AC6,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,T60A
+H2AZ2,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,E60G
+H2BC4,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,M60I
+H3C2,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E60K
+H1-4,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,L59V
+H1-7,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,R59K
+H2AC21,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,L59M
+H2AZ1,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,L59M
+H2BC14,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,A59P
+H1-4,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,S58C
+H1-4,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,S58P
+H3C7,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,S58L
+H3C7,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,S58W
+MACROH2A1,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,A58S
+H1-2,DLBC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,V57I
+H1-5,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,R57L
+H2AC14,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E57G
+H2AC20,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E57Q
+H2AC21,KIRC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E57Q
+H2AC25,READ,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E57Q
+H2AC25,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E57Q
+H2AC4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Nonsense_Mutation,E57*
+H2AC6,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E57Q
+H2AC6,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E57Q
+H2BC11,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S57F
+H2BC12,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S57C
+H2BC21,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S57F
+H2BC4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S57F
+H2BC4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S57T
+H3-5,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,S57L
+H1-7,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,S56F
+H2AC1,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,L56I
+H2AZ1,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,A56P
+H2BC14,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S56F
+H2BC15,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S56L
+H2BC15,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S56L
+H2BC5,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S56C
+H2BC8,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S56L
+H2BW1,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,Q56K
+H3C13,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Nonsense_Mutation,Q56*
+H3C6,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,Q56H
+H3C7,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,Q56E
+H2AJ,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,V55L
+H2BC4,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,I55V
+H1-4,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,R54C
+H2AC13,TGCT,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,A54V
+H2AC7,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,A54S
+H2AP,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,L54H
+H2BW1,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,T54M
+H2BW1,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,T54M
+H3C6,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R53S
+H1-5,READ,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A52V
+H2BC1,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,P52L
+H2BC6,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,D52Y
+H2BC8,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,P51R
+H2BW2,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,R51C
+H3C13,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E51D
+H3C2,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E51Q
+H3C2,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,E51Q
+CENPA,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,E50D
+H2BC14,DLBC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,H50Y
+H2BC15,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,H50R
+H3-3A,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,R50H
+H3-3A,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,R50C
+H3-3B,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,R50P
+H3-3B,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,R50L
+H2AC13,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,P49L
+H2AC20,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,P49A
+H2AC7,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,P49L
+H2BC5,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,V49F
+H3-5,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Nonsense_Mutation,R49*
+H3-5,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Nonsense_Mutation,R49*
+H3-5,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Nonsense_Mutation,R49*
+H2AC21,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,A48G
+H2BC11,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,Q48H
+H2BC4,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,Q48E
+H3-3A,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,A48V
+H3-3A,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,A48E
+H3C4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,A48V
+H3C6,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,A48S
+H3C7,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,A48T
+H1-4,DLBC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A47P
+H2AC13,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,G47E
+H2AC25,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,G47C
+H2AC7,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,G47C
+H2AP,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,S47F
+H2BC8,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Nonsense_Mutation,K47*
+H2BC9,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,K47R
+H3-4,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,V47M
+H3C12,THYM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,V47M
+H1-10,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,G46D
+H2BW1,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,E46D
+H3-4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,T46K
+H3-5,PAAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,V46M
+H1-1,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,E45Q
+H1-6,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,S45F
+H2AZ2,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,G45E
+H2BC4,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,V45L
+H2BC8,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,V45L
+H2BW1,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,Q45K
+H1-5,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Nonsense_Mutation,S44*
+H2BC15,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Nonsense_Mutation,K44*
+H2BC18,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,K44R
+H2BW1,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,T44S
+H3C4,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,P44L
+MACROH2A2,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,G44S
+H1-4,DLBC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,L43V
+H1-6,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,S43C
+H2AC1,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R43P
+H2AC14,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R43L
+H2AJ,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,R43Q
+H2AZ1,READ,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,S43C
+H2BC5,LIHC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Nonsense_Mutation,Y43*
+H1-2,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,E42Q
+H1-7,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,A42V
+H2AC8,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,E42Q
+H2AZ1,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,T42S
+H3-3B,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,Y42C
+H3C2,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Nonsense_Mutation,Y42*
+H2AC8,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,S41F
+H2AZ1,KICH,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,T41K
+H2BC4,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Nonsense_Mutation,Y41*
+H2BW1,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,Q41H
+H2AC21,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,Y40C
+H2AZ2,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,R40H
+H2BC12,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,V40I
+H2BC21,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,I40M
+H3C13,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,H40Q
+MACROH2A1,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,R40M
+CENPA,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Nonsense_Mutation,Q39*
+H1-2,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,P39S
+H1-6,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,V39M
+H2AC11,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,N39S
+H2AC6,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,N39S
+H2BC14,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S39F
+H2BC9,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S39C
+H3-4,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,P39L
+H3C7,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,P39T
+H1-4,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,P38L
+H2AC4,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,G38C
+H2AC4,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,G38V
+H2AC8,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,G38S
+H1-10,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,K37N
+H1-2,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,G37D
+H1-5,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K37Q
+H1-6,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,R37C
+H2BC14,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S37C
+H2BC5,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S37R
+H2BW1,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,T37N
+H3C13,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,K37M
+H3C4,READ,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,K37M
+H3C6,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,K37M
+CENPA,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,S36F
+H2AC1,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R36H
+H2AC1,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R36H
+H2AC11,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R36S
+H2AC20,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R36L
+H2AC21,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R36G
+H2AC8,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R36H
+H2BC1,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,K36N
+H2BC11,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E36K
+H2BC12,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E36D
+H2BC12,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E36K
+H2BC18,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E36D
+H2BC4,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Nonsense_Mutation,E36*
+H2BC5,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E36D
+H2BC8,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E36K
+H2BC9,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E36D
+H2AC11,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,L35F
+H2AC8,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,L35F
+H3-3A,GBM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,G35R
+H3C2,SARC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,G35S
+H3C2,SARC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,G35D
+H3C2,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,G35D
+H2AZ1,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,H34N
+H2BC8,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,R34P
+H3C2,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,G34C
+H1-5,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A33D
+H1-7,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,R33Q
+H2AC6,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R33C
+H2BC11,KIRC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S33N
+H3-3B,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,T33S
+H2BC1,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,K32E
+H2BC5,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,R32L
+H3C2,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,A32D
+H2AC11,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,V31G
+H2BC1,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,R31C
+H3-3B,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,P31L
+H2AC1,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R30Q
+H2AC13,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R30P
+H2AC14,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R30Q
+H2AC14,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R30Q
+H2AC20,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R30Q
+H2AC20,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R30P
+H2AC21,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R30P
+H2AC4,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R30Q
+H2AC4,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R30Q
+H1-2,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,G29R
+H2AC11,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,G29R
+H2AX,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,G29C
+H3C6,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,S29R
+H2AZ2,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,F28Y
+H2BC15,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,K28N
+H2BC18,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,K28R
+H2BC8,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,K28R
+H3C12,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,K28R
+H3C2,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,K28E
+H1-3,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A27V
+H1-4,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,S27F
+H1-4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,S27T
+H2AC13,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,P27L
+H2AC8,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,P27S
+H2AC8,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,P27L
+H2BC9,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,G27S
+H2BC9,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,G27D
+H3-3B,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,R27G
+H3C2,SARC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R27P
+H3C4,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R27P
+H3C4,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R27G
+H3C4,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R27P
+H3C4,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R27L
+H3C4,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R27P
+H3C4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R27G
+MACROH2A1,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,R27L
+H2BC9,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,D26N
+H2BC9,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,D26N
+MACROH2A1,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,G26W
+H1-10,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,G25C
+H1-4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,R25P
+H2AC7,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Nonsense_Mutation,Q25*
+H2AC7,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,Q25P
+H2AC8,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Nonsense_Mutation,Q25*
+H2BC18,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,In_Frame_Del,K25del
+H2BC8,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,In_Frame_Del,K25del
+H3-5,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,A25V
+H2AC11,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,L24F
+H2BC12,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,K24M
+H2BC14,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Nonsense_Mutation,K24*
+H2BC21,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,K24N
+H2BC8,GBM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,K24Q
+H1-2,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,In_Frame_Del,K23del
+H1-4,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,In_Frame_Del,K23del
+H1-4,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,In_Frame_Del,K23del
+H1-4,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,In_Frame_Del,K23del
+H1-4,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,In_Frame_Del,K23del
+H1-4,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,In_Frame_Del,K23del
+H2AC7,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Nonsense_Mutation,G23*
+H2BC5,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,Q23L
+H2BC9,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,Q23H
+H2BC9,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,Q23H
+H3C7,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,T23S
+H2AC11,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,A22V
+H2AC8,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,A22T
+H2BC5,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,A22G
+H2BW2,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,I22T
+H3C4,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,A22S
+H1-2,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,K21N
+H1-7,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,A21T
+H2AC14,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R21L
+H2AC14,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R21W
+H2AZ1,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,S21L
+H2AZ1,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,S21L
+H2BC1,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,V21I
+H2AC14,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,S20Y
+H2BC14,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,N20S
+H2BC8,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,T20A
+H3C12,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,Q20L
+MACROH2A2,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,G20S
+MACROH2A2,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,G20D
+H1-2,TGCT,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,P19A
+H2AC11,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,S19F
+H2AC20,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Nonsense_Mutation,S19*
+H2AC21,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,S19T
+H2AC8,LIHC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,S19F
+H2AC8,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,S19F
+H2BC12,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,V19M
+H3-3A,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,R18G
+H3C2,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R18L
+H3C4,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R18H
+H3C6,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R18L
+H1-3,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Nonsense_Mutation,K17*
+H2AZ1,GBM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,A17G
+H2BC18,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,K17N
+H3C2,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,P17S
+H1-4,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Nonsense_Mutation,E16*
+H1-4,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Nonsense_Mutation,E16*
+H3-4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,A16E
+H1-0,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,R15L
+H1-2,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A15V
+H1-3,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A15S
+H1-7,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,R15H
+H2BC12,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S15W
+H2BC21,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S15C
+H2BW1,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,A15T
+MACROH2A2,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,R15C
+H2BC12,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,G14C
+H2BC13,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,G14C
+H2BC26,READ,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,G14S
+H2BC4,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,G14S
+H2AC21,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,A13V
+H2BC11,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,K13N
+H2BC12,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,K13R
+H3C12,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,G13C
+H3C7,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,G13S
+H1-5,SARC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,P12S
+H2AC1,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R12P
+H2AC13,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R12C
+H2AC13,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R12G
+H2AC13,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R12C
+H2AC14,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R12C
+H2AC20,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R12L
+H2AC25,THYM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R12H
+H2AC4,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R12L
+H3C13,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,T12N
+H1-5,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,T11S
+H2BC6,UCEC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,P11Q
+H2BC8,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,P11A
+H2BC9,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,P11L
+H2BW1,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,R11L
+H3C13,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,S11L
+H3C13,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,S11L
+H2AP,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,S10L
+H2BC9,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,A10V
+MACROH2A1,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,S10P
+H1-2,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,P9R
+H1-8,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,D9N
+H2AC1,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,G9E
+H2AC1,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,G9R
+H2AX,SARC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,G9D
+H2BC12,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,P9A
+H2BC14,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,P9S
+H2BC14,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,P9S
+H2BC18,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,P9L
+H2BC21,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,P9A
+H2BC8,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,P9S
+H2BC8,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,P9S
+H3-3A,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,R9G
+H3-5,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,R9C
+H2AC20,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,G8R
+H2AZ1,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,K8N
+H2BC5,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,A8G
+H2AC1,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,Q7H
+H2AC8,KIRP,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,Q7H
+H2BC11,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S7T
+H1-2,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,P6L
+H1-5,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,P6A
+H1-5,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,P6L
+H3-3A,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Nonsense_Mutation,Q6*
+H3C6,ACC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,Q6H
+MACROH2A2,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,G6W
+H1-0,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,S5F
+H1-4,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,A5S
+H2AC11,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,G5C
+H2AC11,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,G5V
+H2BC26,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,S5Y
+H3C13,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,K5N
+H1-2,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,T4S
+H2AC1,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R4L
+H2AC1,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R4Q
+H2AC1,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R4Q
+H2AC25,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R4C
+H2AC6,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,R4H
+H2AJ,SARC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,R4L
+H2BC1,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,V4M
+H2BC21,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,P4L
+H2BC8,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,P4T
+H3C7,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,T4R
+MACROH2A2,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,variant,Missense_Mutation,R4Q
+H1-0,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,variant,Missense_Mutation,E3Q
+H1-1,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,E3K
+H1-1,ESCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Translation_Start_Site,*3*
+H2AC11,SARC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,G3R
+H2AC11,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,G3V
+H2AC13,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,G3E
+H2BC12,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E3K
+H2BC12,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E3K
+H2BC12,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E3K
+H2BC14,SKCM,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E3K
+H2BC21,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E3Q
+H2BC5,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E3K
+H2BC5,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,E3Q
+H2BW1,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,variant,Missense_Mutation,R3H
+H3-3A,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,R3G
+H3-3A,CESC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,variant,Missense_Mutation,R3C
+H3C2,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R3G
+H3C4,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,R3G
+H1-6,BRCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Missense_Mutation,S2P
+H2AC13,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,S2C
+H2AC20,LIHC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,S2C
+H2AC21,HNSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,S2L
+H2AC25,BLCA,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Missense_Mutation,S2C
+H2BC9,OV,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2B,canonical,Missense_Mutation,P2L
+H3C4,LUAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Missense_Mutation,A2S
+H1-1,STAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H1,canonical,Translation_Start_Site,M1?
+H2AC1,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Translation_Start_Site,M1?
+H2AC7,COAD,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H2A,canonical,Translation_Start_Site,M1?
+H3C7,LUSC,Aneuploidy.Score,NA,NA,NA,Aneuploidy.Score > 10,H3,canonical,Translation_Start_Site,M1?
