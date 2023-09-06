@@ -1,4 +1,4 @@
-gene,TCGA_cancer_type,aneuploidy_metric,Pearson_correlation,odds_ratio,p_value,method,histone_family,histone_type,histone_alteration,histone_alteration_detailed
+gene,TCGA_cancer_type,aneuploidy_metric,Pearson_correlation,odds_ratio,p,method,histone_family,histone_type,histone_alteration,histone_alteration_detailed
 MACROH2A2,UVM,Aneuploidy.Score,-0.44,NA,0.0000358,Pearson,H2A,variant,mRNA_expression,Overexpression
 H2BC11,THYM,Aneuploidy.Score,-0.33,NA,0.000753,Pearson,H2B,canonical,mRNA_expression,Overexpression
 H1-10,THYM,Aneuploidy.Score,-0.32,NA,0.000874,Pearson,H1,variant,mRNA_expression,Overexpression
